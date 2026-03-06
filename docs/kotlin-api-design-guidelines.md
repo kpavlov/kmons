@@ -1444,7 +1444,7 @@ fun HttpClient.mcpSse(
 
 </details>
 
-### 18.8 Not deprecating superseded flat-parameter constructors
+### 18.8 Do deprecate superseded flat-parameter constructors
 
 When you migrate flat parameters to a `Configuration` class, always mark the old constructor
 `@Deprecated` with `replaceWith`. Without it, callers have no migration path and the two forms
