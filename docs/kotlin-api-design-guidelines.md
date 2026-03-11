@@ -7,7 +7,9 @@
 > The [official Kotlin API guidelines](https://kotlinlang.org/docs/api-guidelines-minimizing-mental-complexity.html)
 > name the patterns but do not tell you _when_ to use them. This document does.
 
-See also: https://github.com/JetBrains/kotlin/blob/master/analysis/docs/contribution-guide/api-development.md
+See also: 
+- https://github.com/JetBrains/kotlin/blob/master/analysis/docs/contribution-guide/api-development.md
+- https://github.com/JetBrains/kotlin/blob/master/docs/code_authoring_and_core_review.md
 
 ---
 
