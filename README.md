@@ -1,6 +1,6 @@
 # K'mons
 
-Missing pieces for Kotlin puzzle pieces. Curated collection of Kotlin engineering knowledge and library extensions.
+Missing pieces for Kotlin puzzle. Curated collection of Kotlin engineering knowledge and library extensions.
 
 ## Documentation
 
