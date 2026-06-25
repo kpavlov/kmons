@@ -1,0 +1,27 @@
+[versions]
+bcv = "0.18.1"
+detekt = "2.0.0-alpha.5"
+dokka = "2.2.0"
+kotest = "6.2.1"
+kotlin = "2.2.21"
+kotlinx-coroutines = "1.11.0"
+kover = "0.9.8"
+
+[libraries]
+kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin" }
+kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
+
+# Gradle plugin artifacts — referenced as implementation deps in build-logic
+gradle-plugin-kotlin-multiplatform = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+gradle-plugin-dokka = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
+gradle-plugin-kover = { module = "org.jetbrains.kotlinx:kover-gradle-plugin", version.ref = "kover" }
+gradle-plugin-bcv = { module = "org.jetbrains.kotlinx:binary-compatibility-validator", version.ref = "bcv" }
+
+[plugins]
+bcv = { id = "org.jetbrains.kotlinx.binary-compatibility-validator", version.ref = "bcv" }
+detekt = { id = "dev.detekt", version.ref = "detekt" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
