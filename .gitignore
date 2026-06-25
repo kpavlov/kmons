@@ -5,6 +5,8 @@
 links/
 
 .claude/
+.kotlin/
+**/build/**
 
 # User-specific stuff
 .idea/**/workspace.xml

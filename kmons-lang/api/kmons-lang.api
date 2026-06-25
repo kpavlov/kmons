@@ -1,0 +1,4 @@
+public abstract interface class me/kpavlov/kmons/lang/SuspendCloseable {
+	public abstract fun close (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
