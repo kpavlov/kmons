@@ -1,0 +1,4 @@
+public final class me/kpavlov/kmons/coroutines/CoroutineResultKt {
+	public static final fun runCatchingCancellable (Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+}
+
