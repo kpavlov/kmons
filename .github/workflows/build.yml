@@ -53,7 +53,7 @@ jobs:
         xcode-version: latest-stable
 
     - name: Build with Gradle
-      run: gradle build koverXmlReport --no-daemon
+      run: gradle checkLegacyAbi build koverXmlReport --no-daemon
 
     - name: Upload test results
       if: success() || failure() # always run even if the previous step fails
