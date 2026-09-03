@@ -1,5 +1,5 @@
 [versions]
-bcv = "0.18.1"
+bcv = "0.18.2"
 detekt = "2.0.0-alpha.6"
 dokka = "2.2.0"
 kotest = "6.2.4"
