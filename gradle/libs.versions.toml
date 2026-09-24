@@ -3,7 +3,7 @@ bcv = "0.18.2"
 detekt = "2.0.0-alpha.6"
 dokka = "2.2.0"
 kotest = "6.2.4"
-kotlin = "2.2.21"
+kotlin = "2.4.20"
 kotlinx-coroutines = "1.11.0"
 kover = "0.9.9"
 
